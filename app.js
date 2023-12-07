@@ -22,9 +22,10 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // connect to mongodb
-mongoose.connect(keys.mongodb.dbURI, () => {
+mongoose.createConnection(keys.mongodb.dbURI)
+/* mongoose.connect(, () => {
     console.log('connected to mongodb')
-});
+}); */
 
 //set up routes
 app.use('/auth', authRoutes);
