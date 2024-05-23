@@ -4,16 +4,29 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cookie-session": "^2.0.0",
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "mongoose": "^6.12.3",
+    "connect-ensure-login": "^0.1.1",
+    "connect-sqlite3": "^0.9.15",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.1.0",
+    "csurf": "^1.11.0",
+    "debug": "^4.3.4",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "http-errors": "^2.0.0",
+    "mkdirp": "^3.0.1",
+    "mongoose": "^6.12.8",
+    "morgan": "^1.10.0",
     "passport": "^0.7.0",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oidc": "^0.1.0",
+    "pluralize": "^8.0.0",
+    "sqlite3": "^5.1.7"
   }
 }

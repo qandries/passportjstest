@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>OAuth Tutorial</title>
-        <style>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tutorial Passport Express Google</title>
+		<link rel="stylesheet" href="/css/base.css">
+		<link rel="stylesheet" href="/css/index.css">
+		<link rel="stylesheet" href="/css/home.css">
+        <!-- <style>
             body{
                 font-family: arial, sans-serif;
                 margin: 0;
@@ -36,26 +40,40 @@
                 padding: 0 10px;
                 color: #333;
             }
-        </style>
+        </style> -->
     </head>
     <body>
-        <nav>
+		<section class="todohome">
+			<header>
+				<h1>todos</h1>
+			</header>
+			<section>
+				<h2>todos helps you get things done</h2>
+				<a class="button" href="/login">Sign in</a>
+			</section>
+		</section>
+		<footer class="info">
+			<p>Created by <a href="https://www.jaredhanson.me">Jared Hanson</a></p>
+			<p>Part of <a href="https://todomvc.com">TodoMVC</a></p>
+			<p>Authentication powered by <a href="https://www.passportjs.org">Passport</a></p>
+		</footer>
+         <!-- <nav>
             <ul>
-                <% if (user) { %>
+                <% //if (user) { %>
                 <li><a href="/auth/logout">Logout</a></li>
-                <% } else { %>
+                <% //} else { %>
                 <li><a href="/auth/login">Login</a></li>
-                <% } %>
+                <% // } %>
                 <li><a href="/">Homepage</a></li>
                 <li><a href="/profile">Profile</a></li>
             </ul>
-        </nav>
-        <header>
+        </nav> -->
+        <!-- <header>
             <h1>Net Ninja OaAuth Tutuorial</h1>
             <h2>Homepage</h2>
         </header>
         <main>
             <p>Probably the best OAuth tutorials on th planets :)</p>
-        </main>
+        </main> -->
     </body>
 </html>
